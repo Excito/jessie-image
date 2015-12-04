@@ -1,0 +1,9 @@
+[Unit]
+Description=Post imaging script
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/first-boot.sh
+
+[Install]
+WantedBy=multi-user.target
